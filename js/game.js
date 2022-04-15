@@ -7,7 +7,9 @@ class Game {
       this.playersUI = document.querySelector(".players")
       this.playerNameUI = document.querySelector(".player-turn .name")
       this.playerTurnBgUI = document.querySelector(".player-turn .bg")
+      this.resetgame = document.querySelector(".reset a")
       this.playerTurnBgUI.style.display = "block"
+      this.resetgame.style.display = "block"
 
       this.events = {
          edgeFill: [],
@@ -18,11 +20,11 @@ class Game {
 
       this.players = [
          { name: "MBK", color: "#23297A", filledBoxes: 0 },
-         { name: "BAZ", color: "#00FFEF", filledBoxes: 0 },
-         { name: "M_HAMED", color: "#AFEEEE", filledBoxes: 0 },
-         { name: "AYHAM", color: "#1F4AB8", filledBoxes: 0 },
-         { name: "KHM", color: "#ADD8E6", filledBoxes: 0 },
-         { name: "YAJ", color: "#5D8AA8", filledBoxes: 0 },
+         { name: "player 1", color: "#00FFEF", filledBoxes: 0 },
+         { name: "player 2", color: "#AFEEEE", filledBoxes: 0 },
+         { name: "player 3", color: "#1F4AB8", filledBoxes: 0 },
+         { name: "player 4", color: "#ADD8E6", filledBoxes: 0 },
+         { name: "player 5", color: "#5D8AA8", filledBoxes: 0 },
 
       ]
 

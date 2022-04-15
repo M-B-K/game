@@ -35,7 +35,7 @@ body {
 
 .settings .form h2{
    margin-bottom: 40px;
-   margin-top: 40px;
+   margin-top: 80px;
    font-size: 32px;
    font-weight: 900;
    text-align: center;
@@ -113,7 +113,7 @@ body {
    width: 100%;
    margin: 40px auto 30px ;
    display: flex;
-   justify-content: space-between !important ;
+   justify-content: space-evenly ;
 
 }
 
@@ -288,3 +288,15 @@ body {
    pointer-events: none;
    z-index: 10;
 } 
+
+.reset a{
+   display: none;
+   padding: 10px 0px;
+   width: 100%;
+   border-radius: 5px;
+   text-align: center;
+   color: #0066aa;
+   cursor: pointer;
+   text-transform: capitalize;
+   margin: 10px auto;
+}
